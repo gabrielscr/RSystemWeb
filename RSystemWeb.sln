@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSystemWeb", "RSystemWeb\RSystemWeb.csproj", "{B215D26B-85D0-4F77-8888-C4FF439A4EDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSystemWeb.Client", "RSystemWeb\RSystemWeb.Client.csproj", "{B215D26B-85D0-4F77-8888-C4FF439A4EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSystemWeb.Server", "RSystemWeb.Server\RSystemWeb.Server.csproj", "{B9216E72-6A11-43C0-9647-2E608B891853}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B215D26B-85D0-4F77-8888-C4FF439A4EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B215D26B-85D0-4F77-8888-C4FF439A4EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B215D26B-85D0-4F77-8888-C4FF439A4EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9216E72-6A11-43C0-9647-2E608B891853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9216E72-6A11-43C0-9647-2E608B891853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9216E72-6A11-43C0-9647-2E608B891853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9216E72-6A11-43C0-9647-2E608B891853}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
